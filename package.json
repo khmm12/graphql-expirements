@@ -1,0 +1,43 @@
+{
+  "name": "graphql-expirements",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "start": "DEBUG=knex:query,knex:bindings node -r babel-register ./src/index",
+    "dev": "nodemon --watch src --quiet --exec 'yarn start'"
+  },
+  "dependencies": {
+    "apollo-server": "^0.3.3",
+    "babel-core": "^6.18.2",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-register": "^6.18.0",
+    "babel-runtime": "^6.18.0",
+    "body-parser": "^1.15.2",
+    "dataloader": "^1.2.0",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "graphql": "^0.8.2",
+    "graphql-tools": "^0.8.3",
+    "knex": "^0.12.6",
+    "lodash": "^4.17.2",
+    "objection": "^0.6.2",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.11.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-import-resolver-webpack": "^0.7.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.7.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "faker": "^3.1.0",
+    "nodemon": "^1.11.0"
+  }
+}

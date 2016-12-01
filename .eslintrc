@@ -1,0 +1,8 @@
+{
+  "extends": ["standard", "plugin:import/errors"],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-useless-escape": "off",
+    "import/default": "off"
+  }
+}

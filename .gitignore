@@ -1,0 +1,10 @@
+# npm related
+npm-debug.log*
+node_modules
+.npm
+
+# application related
+*.sqlite3
+
+# environment related
+.DS_Store
